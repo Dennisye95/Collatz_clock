@@ -1,0 +1,41 @@
+body{
+  background-color: navy;
+  text-align: center;
+}
+
+.title{
+  line-height: 60pt;
+  font-size: 24pt;
+  color: white;
+  padding: 50px;
+  margin: 50px;
+  border: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.inputs{
+  padding: 50px;
+  margin: 50px;
+  border: 50px;
+}
+
+.buttons{
+  margin: 2.5px;
+}
+
+.image{
+  width: 400px;
+  height: 500px;
+  position: relative;
+  top: 100px;
+}
+
+#timer{
+  font-size: 60pt;
+  color: white;
+  padding: 50px;
+  margin: 50px;
+  border: 50px;
+}

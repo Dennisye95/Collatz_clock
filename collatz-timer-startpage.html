@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Collatz Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <img class="image" src="https://cdn.pixabay.com/photo/2015/11/22/00/08/hourglass-1055711_960_720.png" style="float: left; left: 20px;">
+  <img class="image" src="https://cdn.pixabay.com/photo/2015/11/22/00/08/hourglass-1055711_960_720.png" style="float: right; right: 20px;">
+  <div class="title">
+    <h1>COLLATZ<br>TIMER</h1>
+  </div>
+  <div class="inputs">
+    <input id="initial" type="text" name="initial number"><br>
+    <span class="buttons">
+      <button class="buttons" onclick="collatz(getElementById('initial').value)" type="submit">Start</button>
+    </span>
+    <span class="buttons">
+      <button class="buttons" onclick="stop(getElementById('timer').innerHTML)" type="submit">Stop</button>
+    </span>
+    <span class="buttons">
+      <button class="buttons" onclick="reset(getElementById('initial').value)" type="submit">Reset</button>
+    </span>
+  </div>
+  <div id="countdown">
+    <h1 id="timer"><h1>
+  </div>
+  <audio id="alarm" src="alarm.mp3" loop="true"></audio>
+  <script src="clock.js"></script>
+
+</body>
+
+</html>
